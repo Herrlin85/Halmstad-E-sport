@@ -1,3 +1,20 @@
 body {
     font-family: Arial;
 }
+
+/* logo & nav */
+
+#logo {
+   float: left;
+}
+
+#links {
+    letter-spacing: 4px;
+    float: right;
+}
+
+#links li {
+    list-style-type: none;
+    margin-right: 15px;
+    display: inline;
+    }
