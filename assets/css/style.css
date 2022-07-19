@@ -1,20 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&display=swap');
+
 body {
-    font-family: Arial;
+    font-family: Fauna One, sans-serif;
 }
 
-/* logo & nav */
+/* headings and logo */
+
+h1,
+h2 {
+    font-family: Cinzel, sans-serif;
+    font-weight: bolder;
+}
 
 #logo {
-   float: left;
+    float: left;
+    font-size: 250%;
 }
+
+/* navigation links */
 
 #links {
     letter-spacing: 4px;
     float: right;
+    font-size: 105%;
+
 }
 
 #links li {
     list-style-type: none;
     margin-right: 15px;
     display: inline;
-    }
+}
+
+#links a {
+    text-decoration: none;
+}
+
+#logo, #links {
+    line-height: 70px;
+}
