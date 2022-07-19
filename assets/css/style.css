@@ -2,7 +2,10 @@
 
 body {
     font-family: Fauna One, sans-serif;
-}
+    margin: 0;
+    background-color: black;
+    color: white;
+    }
 
 /* headings and logo */
 
@@ -15,6 +18,7 @@ h2 {
 #logo {
     float: left;
     font-size: 250%;
+    color: rgb(114, 254, 26);
 }
 
 /* navigation links */
@@ -34,8 +38,26 @@ h2 {
 
 #links a {
     text-decoration: none;
+    color: inherit;
 }
 
 #logo, #links {
     line-height: 70px;
 }
+
+/* section image and text  */
+
+#home-section {
+    height: 500px;
+    width: 100%;  
+    overflow:hidden;
+}
+
+/* Image downloaded at Pexxels.com */
+#section-image {
+    height: 500px;
+    width: 50%;
+    background: url('../images/Lan.jpg') no-repeat center center;
+    background-size: cover;
+   }
+
