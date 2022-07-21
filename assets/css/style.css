@@ -5,7 +5,7 @@ body {
     margin: 0;
     background-color: black;
     color: white;
-    }
+}
 
 /* headings and logo */
 
@@ -41,7 +41,8 @@ h2 {
     color: inherit;
 }
 
-#logo, #links {
+#logo,
+#links {
     line-height: 70px;
 }
 
@@ -49,8 +50,28 @@ h2 {
 
 #home-section {
     height: 500px;
-    width: 100%;  
-    overflow:hidden;
+    width: 100%;
+    overflow: hidden;
+}
+
+#intro-text {
+    text-align: center;
+    padding-top: 10em;
+    line-height: 30px;
+
+}
+
+#intro-text span {
+    color: rgb(114, 254, 26);
+    font-family: Cinzel, sans-serif;
+    font-size: 130%;
+}
+
+#intro-text a {
+    font-size: 130%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(114, 254, 26);
 }
 
 /* Image downloaded at Pexxels.com */
@@ -59,5 +80,5 @@ h2 {
     width: 50%;
     background: url('../images/Lan.jpg') no-repeat center center;
     background-size: cover;
-   }
-
+    float: left;
+}
