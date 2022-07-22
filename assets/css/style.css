@@ -12,7 +12,8 @@ body {
 h1,
 h2 {
     font-family: Cinzel, sans-serif;
-    font-weight: bolder;
+    font-size: 200%;
+
 }
 
 #logo {
@@ -52,33 +53,47 @@ h2 {
     height: 500px;
     width: 100%;
     overflow: hidden;
+    line-height: 2.0;
 }
 
 #intro-text {
     text-align: center;
-    padding-top: 10em;
-    line-height: 30px;
-
+    padding-top: 5%;
 }
 
-#intro-text span {
+#intro-text h2 {
     color: rgb(114, 254, 26);
-    font-family: Cinzel, sans-serif;
-    font-size: 130%;
+    font-style: italic;
+    margin-bottom: 0;
 }
 
 #intro-text a {
-    font-size: 130%;
-    text-decoration: none;
+    background-color: #bd0303a8;
+    color: white;
     text-transform: uppercase;
-    color: rgb(114, 254, 26);
+    font-weight: bold;
+    padding: 14px 70px;
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 /* Image downloaded at Pexxels.com */
 #section-image {
     height: 500px;
     width: 50%;
-    background: url('../images/Lan.jpg') no-repeat center center;
+    background: url('../images/Lan.webp') no-repeat center center;
     background-size: cover;
     float: left;
+}
+
+/* About us section */
+
+#about {
+    margin-top: 1px;
+    text-align: center;
+    border: 1px solid red;
+
+
 }
