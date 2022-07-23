@@ -2,7 +2,7 @@
 
 body {
     font-family: Fauna One, sans-serif;
-    margin: 0;
+    margin: auto;
     background-color: black;
     color: white;
 }
@@ -13,16 +13,26 @@ h1,
 h2 {
     font-family: Cinzel, sans-serif;
     font-size: 200%;
+    color: rgb(114, 254, 26);
+}
 
+section h2,p {
+    line-height: 2.0;
+    margin: 0px;
+    padding: 0px;
 }
 
 #logo {
     float: left;
     font-size: 250%;
-    color: rgb(114, 254, 26);
+    line-height: 1px;
 }
 
-/* navigation links */
+#logo, #links {
+    padding-top: 15px;
+}
+    
+    /* navigation links */
 
 #links {
     letter-spacing: 4px;
@@ -42,18 +52,13 @@ h2 {
     color: inherit;
 }
 
-#logo,
-#links {
-    line-height: 70px;
-}
-
 /* section image and text  */
 
 #home-section {
     height: 500px;
     width: 100%;
+    padding-top: 5%;
     overflow: hidden;
-    line-height: 2.0;
 }
 
 #intro-text {
@@ -61,12 +66,7 @@ h2 {
     padding-top: 5%;
 }
 
-#intro-text h2 {
-    color: rgb(114, 254, 26);
-    font-style: italic;
-    margin-bottom: 0;
-}
-
+/* Book here link with box */
 #intro-text a {
     background-color: #bd0303a8;
     color: white;
@@ -91,9 +91,44 @@ h2 {
 /* About us section */
 
 #about {
-    margin-top: 1px;
+    height: 500px;
+    width: 100%;
+    padding-top: 5%;
+    
+}
+
+.about-us {
+    height: 500px;
+    width: 50%;
     text-align: center;
-    border: 1px solid red;
+}
 
+/* List and link */
+.activity {
+    padding-top: 15px;
+    font-size: 110%;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: left;
+    text-decoration: underline;
+    padding-left: 20px;
+}
 
+#activity-list {
+    width: 25%;
+    float: left;
+    text-align: left;
+    line-height: 1.5;
+    list-style-type: square;
+}
+
+#activity-list a {
+    font-size: 80%;
+    background-color: #bd0303a8;
+    color: white;
+    padding-left: auto;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
