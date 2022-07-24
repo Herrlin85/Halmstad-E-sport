@@ -3,8 +3,8 @@
 body {
     font-family: Fauna One, sans-serif;
     margin: auto;
-    background-color: black;
-    color: white;
+    background-color: #121212;
+    color: rgba(255, 255, 255, .9)
 }
 
 /* headings and logo */
@@ -16,7 +16,8 @@ h2 {
     color: rgb(114, 254, 26);
 }
 
-section h2,p {
+section h2,
+p {
     line-height: 2.0;
     margin: 0px;
     padding: 0px;
@@ -28,11 +29,12 @@ section h2,p {
     line-height: 1px;
 }
 
-#logo, #links {
+#logo,
+#links {
     padding-top: 15px;
 }
-    
-    /* navigation links */
+
+/* navigation links */
 
 #links {
     letter-spacing: 4px;
@@ -94,39 +96,65 @@ section h2,p {
     height: 500px;
     width: 100%;
     padding-top: 5%;
+}
+
+/* left about */
+.left-about {
+    height: 500px;
+    width: 49%;
+    float: left;
+    text-align: center;
+    border: 9px solid rgba(255, 255, 255, 0.521);
+    border-style: groove;
     
 }
 
-.about-us {
-    height: 500px;
-    width: 50%;
-    text-align: center;
-}
-
-/* List and link */
-.activity {
+.left-text {
     padding-top: 15px;
+    padding-left: 20px;
     font-size: 110%;
     font-style: italic;
     text-transform: uppercase;
     text-align: left;
     text-decoration: underline;
-    padding-left: 20px;
+
 }
 
-#activity-list {
-    width: 25%;
-    float: left;
+
+/* right about */
+.right-about {
+    height: 500px;
+    width: 49%;
+    float: right;
+    text-align: center;
+    border: 9px solid rgba(255, 255, 255, 0.521);
+    border-style: groove;
+}
+
+.right-text {
+    padding-top: 15px;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 110%;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+
+
+/* List & rules */
+.list {
+    width: 50%;
     text-align: left;
     line-height: 1.5;
     list-style-type: square;
 }
 
-#activity-list a {
+.list a {
     font-size: 80%;
     background-color: #bd0303a8;
     color: white;
-    padding-left: auto;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
