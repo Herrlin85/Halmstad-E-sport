@@ -110,7 +110,7 @@ p {
 }
 
 .left-text {
-    padding-top: 15px;
+    padding-top: 50px;
     padding-left: 20px;
     font-size: 110%;
     font-style: italic;
@@ -159,4 +159,20 @@ p {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+
+/* Open times table */
+
+#my_table {
+    float: right;
+    margin-right: 20px;
+    margin-top: -115px;
+}
+
+table, td {
+    border: 1px solid;
+  }
+
+.open-time {
+    float: right;
 }
