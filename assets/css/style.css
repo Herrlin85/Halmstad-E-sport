@@ -85,7 +85,7 @@ p {
     display: inline-block;
 }
 
-/* Image downloaded at Pexxels.com */
+/*Photo by Yan Krukov: https://www.pexels.com/photo/a-group-of-friends-playing-computer-games-in-a-tournament-9072268/*/
 #section-image {
     height: 600px;
     width: 100%;
@@ -233,6 +233,48 @@ h3 {
 #copyright {
     margin-top: 170px;
     border-top: 1px solid white;
+}
+
+/* booking page */
+
+.book-form {
+    margin: 70px 10%;
+    padding: 20px;
+    background-color: #2e2d2aed;
+    max-width: 507px;
+    height: 40%;
+    position: absolute;
+}
+
+.form-text {
+    width: 98%;
+    height: 25px;
+    color: transparent;
+    color: black;
+    font-size: large;
+    margin-bottom: 20px;
+    border: 3px solid #fff;
+}
+
+#book-button {
+    background-color: #bd0303a8;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 14px 70px;
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Photo by Soumil Kumar: https://www.pexels.com/photo/photo-of-person-typing-on-computer-keyboard-735911/ */
+.booking-photo  {
+    height: 900px;
+    width: 100%;
+    background: url('../images/Keyboard.webp') no-repeat center center;
+    background-size: cover;
+    clear: both;
 }
 
 /* font awesome icons */

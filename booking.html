@@ -31,30 +31,64 @@
             </ul>
         </nav>
     </header>
-    
+    <section class="booking-photo">
+        <form action="GET" class="book-form">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="First_name" class="form-text" required>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="Last_name" class="form-text" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email_adress" class="form-text" required>
+
+            <label for="choose">Day time or Nightgib</label>
+            <select name="choose" id="choose">
+                <option value="Day Time">Day time 12:00-22:00</option>
+                <option value="Nightgib">Nightgib 21:00-06:00 Friday</option>
+                <option value="Nighthib2">Nightgib 21:00-06:00 Saturday</option>
+            </select>
+
+            <input type="submit" value="Book" id="book-button">
+
+
+        </form>
+
+    </section>
     <!-- Code for social media is taken from love running project -->
     <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i
-                        class="fa-brands fa-twitter-square"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Youtube page (opens in a new tab)"><i
-                        class="fa-brands fa-youtube-square"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fa-brands fa-instagram-square"></i></a>
-            </li>
-        </ul>
+        <div id="social-links">
+            <h3 class="follow">Follow us</h3>
+            <ul>
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)"><i
+                            class="fa-brands fa-twitter-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Youtube page (opens in a new tab)"><i
+                            class="fa-brands fa-youtube-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i
+                            class="fa-brands fa-instagram-square"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div id="contact">
+            <h3>Find us</h3>
+            <p>Brogatan 11</p>
+            <p>302 51 Halmstad</p>
+            <p>+46708213755</p>
+        </div>
+        <p id="copyright">COPYRIGHT © 2022 Kim Herrlin</p>
     </footer>
 
     <!-- font awesome script -->
