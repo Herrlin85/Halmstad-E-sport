@@ -8,8 +8,10 @@ body {
     position: relative;
     }
 
-/* headings and logo */
 
+/* Home page */
+    
+/* headings and logo */
 h1,
 h2 {
     font-family: Cinzel, sans-serif;
@@ -179,8 +181,66 @@ table, td {
 #nightgib {
     text-align: center;
 }
-/* footer */
 
+/* gallery page */
+
+#images {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+    }
+
+    #images>img {
+        width: 100%;
+    }
+
+/* booking page */
+.book-form {
+    margin: 70px 10%;
+    padding: 20px;
+    background-color: #2e2d2aed;
+    max-width: 507px;
+    height: 40%;
+    position: absolute;
+}
+
+.form-text {
+    width: 98%;
+    height: 25px;
+    color: transparent;
+    color: black;
+    font-size: large;
+    margin-bottom: 20px;
+    border: 3px solid #fff;
+}
+
+#choose {
+    height: 25px;
+    font-size: large;
+}
+#book-button {
+    background-color: #bd0303a8;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 14px 70px;
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Photo taken from https://www.pexels.com/@soumil-kumar-4325// */
+.booking-photo  {
+    height: 900px;
+    width: 100%;
+    background: url('../images/Keyboard.webp') no-repeat center center;
+    background-size: cover;
+    clear: both;
+}
+
+/* footer */
 footer {
     height: 200px;
     width: 100%;
@@ -228,56 +288,14 @@ h3 {
     font-size: 150%;
 }
 
-
 /* copyright text */
 #copyright {
     margin-top: 170px;
     border-top: 1px solid white;
 }
 
-/* booking page */
-
-.book-form {
-    margin: 70px 10%;
-    padding: 20px;
-    background-color: #2e2d2aed;
-    max-width: 507px;
-    height: 40%;
-    position: absolute;
-}
-
-.form-text {
-    width: 98%;
-    height: 25px;
-    color: transparent;
-    color: black;
-    font-size: large;
-    margin-bottom: 20px;
-    border: 3px solid #fff;
-}
-
-#book-button {
-    background-color: #bd0303a8;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 14px 70px;
-    margin-top: 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-/* Photo by Soumil Kumar: https://www.pexels.com/photo/photo-of-person-typing-on-computer-keyboard-735911/ */
-.booking-photo  {
-    height: 900px;
-    width: 100%;
-    background: url('../images/Keyboard.webp') no-repeat center center;
-    background-size: cover;
-    clear: both;
-}
-
 /* font awesome icons */
 i {
     font-size: larger;
 }
+
