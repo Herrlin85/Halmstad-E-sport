@@ -6,11 +6,11 @@ body {
     background-color: #2b2a27f5;
     color: #FFF;
     position: relative;
-    }
+}
 
 
 /* Home page */
-    
+
 /* headings and logo */
 h1,
 h2 {
@@ -21,7 +21,7 @@ h2 {
 
 section h2,
 p {
-    line-height: 2.0;
+    line-height: 1.6;
     margin: 0px;
     padding: 0px;
 }
@@ -168,9 +168,10 @@ p {
     margin-top: -115px;
 }
 
-table, td {
+table,
+td {
     border: 1px solid;
-  }
+}
 
 .open-time {
     float: right;
@@ -189,11 +190,11 @@ table, td {
     line-height: 0;
     column-count: 3;
     column-gap: 0;
-    }
+}
 
-    #images>img {
-        width: 100%;
-    }
+#images>img {
+    width: 100%;
+}
 
 /* booking page */
 .book-form {
@@ -219,6 +220,7 @@ table, td {
     height: 25px;
     font-size: large;
 }
+
 #book-button {
     background-color: #bd0303a8;
     color: white;
@@ -232,7 +234,7 @@ table, td {
 }
 
 /* Photo taken from https://www.pexels.com/@soumil-kumar-4325// */
-.booking-photo  {
+.booking-photo {
     height: 900px;
     width: 100%;
     background: url('../images/Keyboard.webp') no-repeat center center;
@@ -254,12 +256,12 @@ footer {
 footer li {
     display: inline;
     letter-spacing: 20px;
-   }
+}
 
 footer i {
     font-size: 220%;
     color: #FFF;
-}  
+}
 
 #social-links {
     height: 150px;
@@ -275,7 +277,7 @@ footer i {
 }
 
 /* Contact*/
-#contact{
+#contact {
     height: 150px;
     width: 33%;
     padding-top: 20px;
@@ -283,6 +285,7 @@ footer i {
     line-height: 1.5;
     text-align: center;
 }
+
 h3 {
     margin: auto;
     font-size: 150%;
@@ -299,3 +302,57 @@ i {
     font-size: larger;
 }
 
+
+/* Screens with 1200px and lower */
+@media screen and (max-width: 1200px) {
+    #section-image {
+        height: 80%;
+        width: 1200px;
+    }
+
+    #intro-text {
+        font-size: 95%;
+    }
+
+    #about {
+        height: 550px;
+    }
+
+    #my_table {
+        margin-right: 112px;
+        margin-top: 1px
+
+    }
+
+    #social-links {
+        width: auto;
+    }
+}
+
+/* Screens with 950px and lower */
+
+@media screen and (max-width: 950px) {
+    #intro-text {
+        font-size: 80%;
+    }
+
+    #about {
+        height: 680px;
+    }
+    
+}
+
+/* Screens with 800px and lower */
+
+@media screen and (max-width: 800px) {
+    
+    #intro-text {
+        font-size: 71%;
+    }
+    
+    #images {
+        column-count: 2;
+    }
+
+    
+}
