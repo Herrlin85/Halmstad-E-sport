@@ -305,6 +305,7 @@ i {
 
 /* Screens with 1200px and lower */
 @media screen and (max-width: 1200px) {
+    
     #section-image {
         height: 80%;
         width: 1200px;
@@ -332,6 +333,7 @@ i {
 /* Screens with 950px and lower */
 
 @media screen and (max-width: 950px) {
+    
     #intro-text {
         font-size: 80%;
     }
@@ -353,6 +355,26 @@ i {
     #images {
         column-count: 2;
     }
-
     
+    #about {
+        height: 720px;
+    }
+    
+}
+
+/* Screens with 600px and lower  */
+
+@media screen and (max-width: 600px) {
+    #about {
+         height: 990px
+    }
+
+    #my_table {
+        margin-right: -15px;
+        margin-top: 1px;
+    }
+
+    #social-links {
+        font-size: small;
+    }
 }
