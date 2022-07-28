@@ -305,7 +305,7 @@ i {
 
 /* Screens with 1200px and lower */
 @media screen and (max-width: 1200px) {
-    
+
     #section-image {
         height: 80%;
         width: 1200px;
@@ -320,9 +320,8 @@ i {
     }
 
     #my_table {
-        margin-right: 112px;
-        margin-top: 1px
-
+        margin-right: 140px;
+        margin-top: 20px
     }
 
     #social-links {
@@ -333,7 +332,12 @@ i {
 /* Screens with 950px and lower */
 
 @media screen and (max-width: 950px) {
-    
+
+    #section-image {
+        height: 80%;
+        width: 900px;
+    }
+
     #intro-text {
         font-size: 80%;
     }
@@ -341,40 +345,126 @@ i {
     #about {
         height: 680px;
     }
-    
+
 }
 
 /* Screens with 800px and lower */
 
 @media screen and (max-width: 800px) {
-    
-    #intro-text {
-        font-size: 71%;
+
+    #section-image {
+        height: 80%;
+        width: 800px;
     }
-    
+
+    #intro-text {
+        padding: 0 200px;
+    }
+
+    #intro-text a {
+        padding: 13px 58px;
+        margin-top: 10px
+    }
+
     #images {
         column-count: 2;
     }
-    
+
     #about {
         height: 720px;
     }
-    
+
 }
 
 /* Screens with 600px and lower  */
 
 @media screen and (max-width: 600px) {
+
+    #section-image {
+        width: 700px;
+    }
+
+    #logo,
+    #links {
+        padding-top: 12px;
+        text-align: center;
+    }
+
+    #logo {
+        float: left;
+        font-size: 200%;
+        line-height: 1px;
+    }
+
+    #intro-text {
+        padding: 50px 210px;
+    }
+
     #about {
-         height: 990px
+        height: 768px;
+    }
+
+    #nightgib {
+        padding-top: 50%;
+    }
+
+    .right-about,
+    .left-about {
+        width: 100%;
+        text-align: center;
     }
 
     #my_table {
-        margin-right: -15px;
-        margin-top: 1px;
+        margin-right: 23px;
+        margin-top: -151px;
+        width: 50%;
+
     }
 
     #social-links {
-        font-size: small;
+        width: 50%;
+    }
+}
+
+/* Screens with 450px and lower */
+
+@media screen and (max-width: 500px) {
+
+    #section-image {
+        width: 430px;
+    }
+
+    #intro-text {
+        padding: 50px 170px;
+    }
+
+    #about {
+        height: 1200px;
+    }
+
+    .right-about,
+    .left-about {
+        height: 750px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #my_table {
+        margin-right: 75px;
+        margin-top: 16px;
+    }
+
+    #nightgib {
+        margin-top: 50px;
+    }
+
+    #social-links {
+        width: 50%;
+        font-size: 70%;
+    }
+
+    .book-form {
+    margin: 40px 0;
+    padding: 0;
     }
 }
