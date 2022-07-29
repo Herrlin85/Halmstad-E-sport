@@ -221,6 +221,10 @@ td {
     font-size: large;
 }
 
+#textarea {
+    margin: 20px;
+}
+
 #book-button {
     background-color: #bd0303a8;
     color: white;
